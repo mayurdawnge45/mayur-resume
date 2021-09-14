@@ -1,0 +1,13 @@
+<svg width="150" height="148" viewBox="0 0 150 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M122.516 119.661H0V0H122.516V119.661Z" transform="translate(13.7344 13.7344)" fill="#614B39"/>
+<path d="M136.258 13.7418V133.402H13.7418V13.7418H136.258ZM150 0H136.258H13.7418H0V13.7418V133.402V147.13H13.7418H136.258H150V133.402V13.7418V0Z" fill="#FAB44E"/>
+<path d="M42.1583 60.6786H55.8294L34.934 0H30.0566H25.7729H20.8954L0 60.6786H13.6711L18.4637 42.9359H37.3657L42.1583 60.6786ZM20.6268 34.9199L27.9218 7.94533L35.2026 34.9199H20.6268Z" transform="translate(38.5 42.375)" fill="#FAB44E"/>
+<path d="M12.5966 45.2262H0V0H12.5966V45.2262Z" transform="translate(96.75 58.4062)" fill="#FAB44E"/>
+<path d="M12.8794 6.44675C12.8794 10.0094 9.99529 12.8935 6.44675 12.8935C2.88407 12.8935 0 10.0094 0 6.44675C0 2.88407 2.88407 0 6.44675 0C9.99529 0 12.8794 2.88407 12.8794 6.44675Z" transform="translate(97.3281 39.7812)" fill="url(#paint0_linear)"/>
+<defs>
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6.44435 -6.4341) scale(18.2175) rotate(44.9984)">
+<stop stop-color="#FAC564"/>
+<stop offset="1" stop-color="#F89E33"/>
+</linearGradient>
+</defs>
+</svg>

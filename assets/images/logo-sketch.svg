@@ -1,0 +1,11 @@
+<svg width="256" height="232" viewBox="0 0 256 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M128 0L55.855 7.628L0 82.607L128 231.662L256 82.607L200.146 7.628L128 0Z" fill="#FDB300"/>
+<path d="M0 -2.64893e-06L128 149.054L51.846 -2.64893e-06H0Z" transform="translate(0 82.6074)" fill="#EB6C00"/>
+<path d="M76.153 -2.64893e-06L5.17578e-06 149.054L127.999 -2.64893e-06H76.153Z" transform="translate(128 82.6074)" fill="#EB6C00"/>
+<path d="M-1.78223e-06 -2.64893e-06L76.154 149.054L152.308 -2.64893e-06H-1.78223e-06Z" transform="translate(51.8467 82.6074)" fill="#FDAD00"/>
+<path d="M4.009 7.628L-1.50757e-06 82.607L76.154 0L4.009 7.628Z" transform="translate(51.8462)" fill="#FDD231"/>
+<path d="M76.153 82.607L72.145 7.627L5.17578e-06 0L76.153 82.607Z" transform="translate(128 0.000488281)" fill="#FDD231"/>
+<path d="M4.00901 74.98H55.854L2.63672e-06 1.93024e-07L4.00901 74.98Z" transform="translate(200.146 7.62744)" fill="#FDAD00"/>
+<path d="M0 74.98H51.846L55.855 1.93024e-07L0 74.98Z" transform="translate(0 7.62744)" fill="#FDAD00"/>
+<path d="M76.154 0L-1.50757e-06 82.607H152.308L76.154 0Z" transform="translate(51.8462)" fill="#FEEEB7"/>
+</svg>
