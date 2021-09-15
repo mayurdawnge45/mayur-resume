@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap"
           rel="stylesheet">
     <title>Mayur-Resume</title>
+    <link rel="shortcut icon" href="assets/images/logo-asana.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -117,7 +118,7 @@
                     <span data-strength="item.strength" class="icon-title">Wordpress </span>
                 </a>
                 <a href="#" data-lable="HTML5" target="_blank" class="icon-space">
-                    <img src="assets/images/logo-firebase.svg" alt="wordpress" title="wordpress">
+                    <img src="assets/images/logo-firebase.svg" alt="wordpress" title="Firebase">
                     <span data-strength="item.strength" class="icon-title">Firebase </span>
                 </a>
             </div>
@@ -160,7 +161,179 @@
             <h2>Work Experience</h2>
             <div class="line"></div>
         </div>
+        <div class="experiance-container">
+            <div class="work-experiance">
+                <div class="work-item">
+                    <p>UI Developer at</p>
+                    <h3>
+                        TOTO Dream Marketing
+                    </h3>
+                    <p> <small> 02-02-2021 To 01-08-2021</small></p>
+                </div>
+                <div class="work-logo">
+                    <img src="assets/images/Toto-logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main-heading">
+            <h2>Technical Work</h2>
+            <div class="line"></div>
+        </div>
+        <div class="technical-work">
+            <ul>
+                <li>
+                    Proficient in various web design programs including HTML, Responsiveness for device
+                    compatibility with CSS3, Foundation, Bootstrap.
+                </li>
+                <li>
+                    Creating, editing or modifying pages in Wordpress with the help of Elementor plugin.
+                </li>
+                <li>
+                    Experienced with Visual Studio, Figma, GitHub.
+                </li>
+                <li>
+                    Testing cross- browser, cross- platform, and/or cross- device compatibility for consistencies.
+                </li>
+            </ul>
+        </div>
+        <div class="main-heading">
+            <h2>Education</h2>
+            <div class="line"></div>
+        </div>
+        <div class="education">
+            <ul>
+                <li>
+                    <h4>High School - (2009), Indore</h4>
+                </li>
+                <p>Madhya Pradesh Board of Education</p>
+                <li>
+                    <h4>Higher Secondary - (2011), Indore</h4>
+                </li>
+                <p>Madhya Pradesh Board of Education</p>
+                <li>
+                    <h4>B.A. (Philosophy) -(2014), Indore </h4>
+                </li>
+                <p>Medicaps University</p>
+                <li>
+                    <h4>M.B.A - (2020), Indore</h4>
+                </li>
+                <p>Madhya Pradesh D.A.V.V Indore</p>
+            </ul>
+        </div>
+        <div class="main-heading">
+            <h2>Personal Information</h2>
+            <div class="line"></div>
+        </div>
+        <div class="personnel-information">
+            <table>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        :
+                    </th>
+                    <td>
+                        Mayur Dawange
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Father's Name
+                    </th>
+                    <th>
+                        :
+                    </th>
+                    <td>
+                        Pramod Dawange
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Date of Birth
+                    </th>
+                    <th>
+                        :
+                    </th>
+                    <td>
+                        28-May-1992
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Permanent Address
+                    </th>
+                    <th>
+                        :
+                    </th>
+                    <td>
+                        H.N.-468 A.B. Raghuvanshi Colony Road Mangliya Sadak Indore (M.P.)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Current Address
+                    </th>
+                    <th>
+                        :
+                    </th>
+                    <td>
+                        H.N.-468 A.B. Raghuvanshi Colony Road Mangliya Sadak Indore (M.P.)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Languages Known
+                    </th>
+                    <th>
+                        :
+                    </th>
+                    <td>
+                        English, Hindi, and Marathi
+                    </td>
+                </tr>
+            </table>
+            <div class="declare">I have declared that the information given above is complete and authentic to
+                best of my knowledge.</div>
+        </div>
+        <footer>
+            <div class="-date-place">
+                <table>
+                    <tr>
+                        <th>
+                            Date
+                        </th>
+                        <th>
+                            :
+                        </th>
+                        <td id="date">
+                            English, Hindi, and Marathi
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Place
+                        </th>
+                        <th>
+                            :
+                        </th>
+                        <td>
+                            Indore
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sign">
+                <h2>Mayur Dawange</h2>
+            </div>
+        </footer>
     </div>
+    <script>
+        var day = new Date();
+        const options = { day: 'numeric', month: 'long', year: "numeric", timeZone: "Asia/Kolkata" };
+        const today = document.getElementById('date').innerHTML = day.toLocaleDateString("en-IN", options);
+
+    </script>
 </body>
 
 </html>

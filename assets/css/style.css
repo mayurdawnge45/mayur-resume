@@ -106,3 +106,43 @@ a > img {
 .coming-soon {
   visibility: hidden;
 }
+.work-experiance {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.technical-work > ul li {
+  line-height: 2.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+}
+.education ul {
+  margin-left: 30px;
+}
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 8px;
+  margin-left: 10px;
+}
+table > td {
+  margin-left: 135px;
+}
+
+.declare {
+  margin: 20px 0px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
