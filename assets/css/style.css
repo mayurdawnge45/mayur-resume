@@ -146,15 +146,16 @@ footer {
   align-items: center;
   margin: 20px 0px;
 }
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+    margin-top: 15px;
+  }
   p {
     font-size: 15px;
   }
   .main-container {
     width: 95%;
-  }
-  header {
-    margin-top: 15px;
   }
   .introduction,
   h1 {
@@ -164,26 +165,38 @@ footer {
   .introduction p {
     font-size: 14px;
   }
+  .address {
+    margin-top: 20px;
+  }
   .address p {
     font-size: 15px;
+    color: black;
+    /* display: none; */
+    margin-left: 0px;
+    /* margin-top: 20px; */
   }
-  .address ul {
+
+  .skill {
+    display: flex;
     flex-wrap: wrap;
     font-size: 15px;
+    margin-left: 0px;
+  }
+  .skill li:nth-child(1) {
+    margin-left: 0px;
+  }
+  .skill li {
+    padding: 0px 0px 0px 0px;
   }
   .line {
     width: 98%;
     margin-top: 15px;
   }
-  .about {
-    width: 90%;
-    margin: auto;
-    padding: 20px !important;
+  .about p {
+    font-size: 13px !important;
+    padding: 0px;
   }
-  .about::before {
-    position: absolute;
-    display: none;
-  }
+
   .task ul {
     line-height: 1.5rem;
   }
