@@ -146,3 +146,67 @@ footer {
   align-items: center;
   margin: 20px 0px;
 }
+@media screen and (max-width: 668px) {
+  p {
+    font-size: 15px;
+  }
+  .main-container {
+    width: 95%;
+  }
+  header {
+    margin-top: 15px;
+  }
+  .introduction,
+  h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .introduction p {
+    font-size: 14px;
+  }
+  .address p {
+    font-size: 15px;
+  }
+  .address ul {
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+  .line {
+    width: 98%;
+    margin-top: 15px;
+  }
+  .about {
+    width: 90%;
+    margin: auto;
+    padding: 20px !important;
+  }
+  .about::before {
+    position: absolute;
+    display: none;
+  }
+  .task ul {
+    line-height: 1.5rem;
+  }
+  .tools-icon {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tools-icon > a img {
+    height: 28px;
+    width: 28px;
+    margin: 0 auto;
+  }
+  .icon-space {
+    margin-left: 0px !important;
+  }
+  .work-logo {
+    margin-top: 25px;
+  }
+  .-date-place {
+    width: 100%;
+    font-size: 14px;
+  }
+  .sign {
+    font-size: 15px;
+  }
+}
