@@ -146,3 +146,80 @@ footer {
   align-items: center;
   margin: 20px 0px;
 }
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+    margin-top: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .main-container {
+    width: 95%;
+  }
+  .introduction,
+  h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .introduction p {
+    font-size: 14px;
+  }
+  .address {
+    margin-top: 20px;
+  }
+  .address p {
+    font-size: 15px;
+    color: black;
+    /* display: none; */
+    margin-left: 0px;
+    /* margin-top: 20px; */
+  }
+
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .skill li:nth-child(1) {
+    margin-left: 0px;
+  }
+  .skill li {
+    padding: 0px 0px 0px 0px;
+  }
+  .line {
+    width: 98%;
+    margin-top: 15px;
+  }
+  .about p {
+    font-size: 13px !important;
+    padding: 0px;
+  }
+
+  .task ul {
+    line-height: 1.5rem;
+  }
+  .tools-icon {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tools-icon > a img {
+    height: 28px;
+    width: 28px;
+    margin: 0 auto;
+  }
+  .icon-space {
+    margin-left: 0px !important;
+  }
+  .work-logo {
+    margin-top: 25px;
+  }
+  .-date-place {
+    width: 100%;
+    font-size: 14px;
+  }
+  .sign {
+    font-size: 15px;
+  }
+}
