@@ -3,36 +3,45 @@
   padding: 0;
   font-family: 'Poppins';
 }
+
 .main-container {
   width: 100%;
   max-width: 1100px;
   margin: auto;
 }
+
 header {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
+
 .address p {
   margin-left: 30px;
 }
+
 .skill {
   display: flex;
 }
+
 .skill li {
   margin: 0px 0px 0px 30px;
 }
+
 .skill li:nth-child(1) {
   list-style: none;
 }
+
 .introduction {
   font-weight: bolder;
 }
+
 .line {
   margin: 20px 0px;
   height: 3px;
   background: black;
 }
+
 .about {
   border-radius: 8px;
   margin-top: 35px;
@@ -43,6 +52,7 @@ header {
   position: relative;
   font-size: 15px;
 }
+
 .about::before {
   display: block;
   content: '\201C';
@@ -52,31 +62,38 @@ header {
   top: 1px;
   color: #7a7a7a;
 }
+
 .task {
   margin: 35px 0px 0px 35px;
   font-size: 15px;
 }
+
 .task ul li {
   margin-top: 8px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .main-heading {
   margin-top: 30px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
-.main-heading > .line {
+
+.main-heading>.line {
   width: 80px;
   margin-top: 0px;
 }
+
 .tools-icon {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-between; */
 }
+
 .icon-space {
   margin-left: 20px !important;
 }
+
 .tools-icon a {
   position: relative;
   color: black;
@@ -89,23 +106,28 @@ header {
   padding: 15px;
   width: 80px;
 }
-a > span {
+
+a>span {
   display: block;
   text-align: center;
 }
-a > img {
+
+a>img {
   padding: 10px;
   width: 60px;
   height: 60px;
   display: block;
   margin: auto;
 }
+
 .tools-item h4 {
   margin-top: 25px;
 }
+
 .coming-soon {
   visibility: hidden;
 }
+
 .work-experiance {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -116,14 +138,28 @@ a > img {
   flex-wrap: wrap;
   align-items: center;
 }
-.technical-work > ul li {
+
+.experiance-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.work-logo img {
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.technical-work>ul li {
   line-height: 2.2rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 30px;
 }
+
 .education ul {
   margin-left: 30px;
 }
+
 td,
 th {
   /* border: 1px solid #dddddd; */
@@ -131,7 +167,8 @@ th {
   padding: 8px;
   margin-left: 10px;
 }
-table > td {
+
+table>td {
   margin-left: 135px;
 }
 
@@ -140,34 +177,42 @@ table > td {
   font-weight: bolder;
   margin-left: 10px;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 0px;
 }
+
 @media screen and (max-width: 768px) {
   header {
     display: block;
     margin-top: 15px;
   }
+
   p {
     font-size: 15px;
   }
+
   .main-container {
     width: 95%;
   }
+
   .introduction,
   h1 {
     font-size: 20px;
     width: 100%;
   }
+
   .introduction p {
     font-size: 14px;
   }
+
   .address {
     margin-top: 20px;
   }
+
   .address p {
     font-size: 15px;
     color: black;
@@ -182,16 +227,20 @@ footer {
     font-size: 15px;
     margin-left: 0px;
   }
+
   .skill li:nth-child(1) {
     margin-left: 0px;
   }
+
   .skill li {
     padding: 0px 0px 0px 0px;
   }
+
   .line {
     width: 98%;
     margin-top: 15px;
   }
+
   .about p {
     font-size: 13px !important;
     padding: 0px;
@@ -200,25 +249,36 @@ footer {
   .task ul {
     line-height: 1.5rem;
   }
+
   .tools-icon {
     display: flex;
     justify-content: space-evenly;
   }
-  .tools-icon > a img {
+
+  .tools-icon>a img {
     height: 28px;
     width: 28px;
     margin: 0 auto;
   }
-  .icon-space {
-    margin-left: 0px !important;
+
+  .tools-icon a.icon-space img {
+    object-fit: contain;
   }
+
+  a.icon-space svg.claud_ai {
+    height: 80px;
+    width: 80px;
+  }
+
   .work-logo {
     margin-top: 25px;
   }
+
   .-date-place {
     width: 100%;
     font-size: 14px;
   }
+
   .sign {
     font-size: 15px;
   }
